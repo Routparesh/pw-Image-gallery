@@ -1,0 +1,33 @@
+.card {
+	display: flex;
+	align-items: center;
+	background-color: #003366; /* Dark blue background */
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	max-width: 800px; /* Adjust according to your requirement */
+	margin: auto; /* Center the card */
+}
+
+.card-image {
+	width: 40%; /* Adjust the width as needed */
+	border-radius: 10px;
+	margin-right: 20px; /* Space between image and content */
+}
+
+.card-content {
+	flex: 1;
+}
+
+.card-content h2 {
+	font-size: 1.5em;
+	margin: 0;
+	line-height: 1.2;
+}
+
+.card-content p {
+	font-size: 1em;
+	margin-top: 10px;
+	line-height: 1.5;
+}
